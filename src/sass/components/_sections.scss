@@ -1,0 +1,51 @@
+.section-welcome {
+    background-image: url("../images/bg-welcome.png");
+    background-repeat: no-repeat;
+    padding: 11.4em 0 15.5em 0;
+
+    .section-heading {
+        max-width: 440px;
+        .heading-description {
+            line-height: 2em;
+            margin-bottom: 3em;
+        }
+    }
+    @media (max-width: 768px) {
+        background-position: 50 70%;
+        .row {
+            text-align: center;
+        }
+
+        .section-heading {
+            margin: auto;
+        }
+    }
+}
+
+.section-understand {
+    padding: 2.75em 0;
+
+    .section-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .heading-title {
+            max-width: 11em;
+            margin: 0;
+        }
+        .heading-description {
+            max-width: 33em;
+            margin-top: 2.5em;
+        }
+    }
+    @media (max-width: 991px) {
+        text-align: center;
+        .section-heading {
+            margin: auto;
+            display: block;
+            .heading-title {
+               margin: auto;
+            }
+        }
+    }
+}

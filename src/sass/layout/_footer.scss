@@ -1,0 +1,40 @@
+.footer {
+    background-color: $section-background-primary;
+    padding: 6em 0em 8.75em 0em;
+
+    &-logo {
+        text-transform: capitalize;
+        color: $title-tetriary;
+        font-size: 2.5em;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .navigation {
+        display: block;
+        .list {
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            &-item {
+                padding: 1.85em 0;
+                margin: 0;
+
+                a {
+                    color: $title-tetriary;
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .footer-logo {
+            text-align: center;
+        }
+        .navigation {
+            text-align: center;
+        }
+    }
+}
