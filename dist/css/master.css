@@ -304,3 +304,6 @@ p {
       text-align: center; }
     .footer .navigation {
       text-align: center; } }
+
+body {
+  margin: 0; }
