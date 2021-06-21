@@ -23,12 +23,15 @@ p {
   font-weight: 500; }
 
 .row {
-  padding: .5em;
+  padding: 0.5em;
   max-width: 87.5em;
   margin: auto;
   display: flex; }
   .row-large {
-    max-width: 94.125em; }
+    padding: 0.5em;
+    max-width: 94.125em;
+    margin: auto;
+    display: flex; }
 
 .button {
   color: #FFFFFF;
@@ -110,11 +113,10 @@ p {
 .section-video {
   background-color: #245852;
   padding: 14.35em 0 11em 0; }
-  .section-video .row {
-    max-width: 1506px;
+  .section-video .row-large {
     align-items: center; }
     @media (max-width: 768px) {
-      .section-video .row {
+      .section-video .row-large {
         flex-wrap: wrap; } }
   .section-video .thumbnail {
     max-width: 56em !important; }

@@ -1,11 +1,13 @@
 .row {
-    padding: .5em;
+    padding: 0.5em;
     max-width: 87.5em;
     margin: auto;
     display: flex;
 
     &-large {
+        padding: 0.5em;
         max-width: 94.125em;
+        margin: auto;
+        display: flex;
     }
 }
-

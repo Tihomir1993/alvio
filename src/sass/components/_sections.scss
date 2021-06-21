@@ -60,8 +60,7 @@
 .section-video {
     background-color: $section-background-primary;
     padding: 14.35em 0 11em 0;
-    .row {
-        max-width: 1506px;
+    .row-large {
         align-items: center;
         @media (max-width: 768px) {
             flex-wrap: wrap;
