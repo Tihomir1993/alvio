@@ -7,17 +7,20 @@
     position: absolute;
     bottom: 5.25em;
     text-align: center;
+
     @media (max-width: 991px) {
         bottom: 0;
     }
 
     &-img {
         text-align: center;
+
         img {
             max-width: 3.75em;
             border-radius: 10em;
         }
     }
+
     &-name {
         font-family: Lato;
         font-size: 0.75em;
@@ -35,15 +38,19 @@
         margin-bottom: .85em;
         font-size: Lato;
         text-transform: capitalize;
+        font-weight: 600;
     }
+
     &-title {
         line-height: 1.5em;
     }
+
     &-list {
         padding: 0;
         margin: 0;
         list-style-position: inside;
         text-align: left;
+
         &-item {
             text-transform: capitalize;
             font-family: Lato;

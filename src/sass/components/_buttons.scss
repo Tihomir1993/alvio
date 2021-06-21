@@ -4,18 +4,22 @@
     text-decoration: none;
     text-transform: capitalize;
     font-family: Lato;
+
     &-sign {
         background: transparent;
         text-transform: unset;
         color: $button-secondary-color;
         margin-right: 2.125em;
     }
+
     &-cta {
         padding: .8em 3.125em;
+
         @media(max-width:1200px) {
             padding: .8em 2em;
             font-size: 1em;
         }
+
         &-bigger {
             padding: 1.25em 3.125em;
         }

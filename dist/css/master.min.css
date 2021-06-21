@@ -94,7 +94,8 @@ p {
   .section-understand .section-heading {
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 100%; }
     .section-understand .section-heading .heading-title {
       max-width: 11em;
       margin: 0; }
@@ -197,7 +198,8 @@ p {
     border-bottom: 1px solid #000000;
     margin-bottom: .85em;
     font-size: Lato;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    font-weight: 600; }
   .card-title {
     line-height: 1.5em; }
   .card-list {

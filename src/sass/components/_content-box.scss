@@ -14,6 +14,7 @@
         opacity: 0.2;
         margin: 0;
     }
+
     &-overlay-title {
         margin-top: 2.5em;
         text-align: center;
@@ -23,19 +24,24 @@
         position: relative;
 
     }
+
     &-description {
         font-weight: 500;
         margin-bottom: 1.5em;
     }
+
     img {
         max-width: 100%;
     }
+
     &:first-child {
         margin-left: 0;
     }
+
     &:nth-child(2) {
         margin-top: 12.75em;
     }
+
     &:last-child {
         margin-right: 0;
     }

@@ -5,13 +5,16 @@
 
     .section-heading {
         max-width: 440px;
+
         .heading-description {
             line-height: 2em;
             margin-bottom: 3em;
         }
     }
+
     @media (max-width: 768px) {
         background-position: 50 70%;
+
         .row {
             text-align: center;
         }
@@ -26,8 +29,8 @@
     padding: 2.75em 0;
 
     .row {
-    @media (max-width: 768px) {
-        
+        @media (max-width: 768px) {
+
             display: block;
         }
     }
@@ -36,20 +39,26 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        width: 100%;
+
         .heading-title {
             max-width: 11em;
             margin: 0;
         }
+
         .heading-description {
             max-width: 33em;
             margin-top: 2.5em;
         }
     }
+
     @media (max-width: 991px) {
         text-align: center;
+
         .section-heading {
             margin: auto;
             display: block;
+
             .heading-title {
                 margin: auto;
             }
@@ -60,32 +69,40 @@
 .section-video {
     background-color: $section-background-primary;
     padding: 14.35em 0 11em 0;
+
     .row-large {
         align-items: center;
+
         @media (max-width: 768px) {
             flex-wrap: wrap;
         }
     }
+
     .thumbnail {
         max-width: 56em !important;
+
         @media (max-width: 768px) {
             width: 100% !important;
             margin-top: 2em;
         }
     }
+
     .section-heading {
         @media (max-width: 768px) {
             text-align: center;
         }
+
         .heading-title,
         .heading-description {
             color: $title-tetriary;
         }
+
         .heading-description {
             margin-bottom: 3.75em;
         }
     }
 }
+
 .section-product {
     padding: 8.5em 0 10.5em 0;
     background-color: $section-backgrond-secondary;
@@ -101,9 +118,11 @@
         @media (max-width: 991px) {
             position: relative;
         }
+
         .underlay-img {
             margin-left: 4.75em;
             margin-right: 5em;
+
             @media (max-width: 1072px) {
                 margin: 0;
                 max-width: 100%;
@@ -111,6 +130,7 @@
             }
         }
     }
+
     .section-heading {
         .heading-description {
             font-weight: 400;
