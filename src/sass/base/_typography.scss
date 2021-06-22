@@ -1,13 +1,11 @@
 h1 {
-    font-family: Georgia serif;
+
     font-size: 4.0625em;
-    font-weight: 700;
 }
 
 h2 {
     font-size: 3.125em;
-    font-weight: 700;
-    font-family: Georgia serif;
+
 }
 
 h3 {
@@ -16,12 +14,19 @@ h3 {
 
 h4 {
     font-size: 1em;
-    font-family: Georgia serif;
-    font-weight: 700;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font-Georgia;
+    font-weight: $font-weight-700;
 }
 
 p {
     font-size: 1.25em;
-    font-family: Lato;
-    font-weight: 500;
+    font-family: $font-Lato;
+    font-weight: $font-weight-500;
 }

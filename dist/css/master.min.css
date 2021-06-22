@@ -1,19 +1,20 @@
 @import url("http://fonts.cdnfonts.com/css/georgia");
 h1 {
-  font-family: Georgia serif;
-  font-size: 4.0625em;
-  font-weight: 700; }
+  font-size: 4.0625em; }
 
 h2 {
-  font-size: 3.125em;
-  font-weight: 700;
-  font-family: Georgia serif; }
+  font-size: 3.125em; }
 
 h3 {
   font-size: 1.875em; }
 
 h4 {
-  font-size: 1em;
+  font-size: 1em; }
+
+h1,
+h2,
+h3,
+h4 {
   font-family: Georgia serif;
   font-weight: 700; }
 
@@ -105,11 +106,8 @@ p {
   @media (max-width: 991px) {
     .section-understand {
       text-align: center; }
-      .section-understand .section-heading {
-        margin: auto;
-        display: block; }
-        .section-understand .section-heading .heading-title {
-          margin: auto; } }
+      .section-understand .section-heading .heading-description {
+        max-width: 100%; } }
 
 .section-video {
   background-color: #245852;
@@ -120,7 +118,8 @@ p {
       .section-video .row-large {
         flex-wrap: wrap; } }
   .section-video .thumbnail {
-    max-width: 56em !important; }
+    max-width: 56em !important;
+    border-radius: 1em; }
     @media (max-width: 768px) {
       .section-video .thumbnail {
         width: 100% !important;
@@ -169,6 +168,18 @@ p {
   font-size: 400;
   margin-bottom: 2.5em; }
 
+@media (max-width: 991px) {
+  .section-heading {
+    text-align: center; }
+    .section-heading .section-heading {
+      margin: auto;
+      display: block; }
+      .section-heading .section-heading .heading-title {
+        margin: auto; }
+      .section-heading .section-heading .heading-description {
+        max-width: 100%;
+        text-align: center; } }
+
 .card {
   padding: 1.4em 3.75em 1.9em 3.75em;
   background: #FFFFFF;
@@ -197,7 +208,7 @@ p {
     line-height: 1.4em;
     border-bottom: 1px solid #000000;
     margin-bottom: .85em;
-    font-size: Lato;
+    font-family: Lato;
     text-transform: capitalize;
     font-weight: 600; }
   .card-title {

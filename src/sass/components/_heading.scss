@@ -9,8 +9,27 @@
     .heading-title {
         color: $title-secondary-color;
     }
+
     .heading-desciption {
         font-size: 400;
         margin-bottom: 2.5em;
+    }
+
+    @media (max-width: 991px) {
+        text-align: center;
+
+        .section-heading {
+            margin: auto;
+            display: block;
+
+            .heading-title {
+                margin: auto;
+            }
+
+            .heading-description {
+                max-width: 100%;
+                text-align: center;
+            }
+        }
     }
 }
