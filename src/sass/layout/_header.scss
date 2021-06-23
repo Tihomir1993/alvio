@@ -1,38 +1,67 @@
-.header {
+.site-header {
     position: relative;
-    padding: 1.6em 0;
-    border-bottom: 1px solid $border-bottom-line-color;
+    border-bottom: 1px solid $color-primary-separator;
+
     .row {
         align-items: center;
         justify-content: space-between;
     }
+
     .mobile-button {
         display: none;
-        @media(max-width:768px) {
+
+        @media(max-width:48em) {
             display: inline-block;
+            margin-left: 2em;
         }
     }
-    @media(max-width:768px) {
+
+    @media(max-width:48em) {
+        .info {
+            display: flex;
+            align-items: center;
+        }
+
+
+
         .navigation {
-        display: none;
-        position: absolute;
-        border: 0;
-        bottom: 0;
-        top: 100%;
-        left: 0;
-        right: 0;
-        .list {
-            margin: 0;
-            padding: 0;
-            flex-direction: column;
-            width: 100%;
-        }
-        .list-item {
-            padding: 0.5em 0;
-            width: 100%;
-            border-bottom: 1px solid $border-bottom-line-color;
-            margin: 0;
+            display: none;
+            position: absolute;
+            border: 0;
+            bottom: 0;
+            top: 100%;
+            left: 0;
+            right: 0;
+
+            .list {
+                margin: 0;
+                padding: 0;
+                flex-direction: column;
+                width: 100%;
+                background: $color-primary;
+            }
+
+            .list-item {
+                padding: 0.75em;
+                width: 100%;
+                border-bottom: 1px solid $color-primary-separator;
+                margin: 0;
+            }
+
+            .list-item:first-child {
+                border-top: 1px solid $color-primary-separator;
+            }
         }
     }
-}
+
+    @media(max-width:30em) {
+        .button {
+
+            &-cta,
+            &-sign {
+                display: none;
+            }
+        }
+
+    }
 }

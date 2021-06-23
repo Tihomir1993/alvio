@@ -1,26 +1,27 @@
 .navigation {
     .list {
         display: flex;
+
         &-item {
-            margin: 0 2.375em;
+            margin: .425em 2.375em;
             font-family: "Lato";
             font-size: 1.25em;
             text-transform: capitalize;
             list-style: none;
 
-       a {
-           text-decoration: none;
-           color: $list-item-color;
-       }
-            @media (max-width: 1200px) {
+            a {
+                text-decoration: none;
+                color: $list-item-color;
+            }
+
+            @media (max-width: 75em) {
                 margin: 0 1em;
                 font-size: 1em;
             }
         }
 
 
-     
+
     }
 
 }
-

@@ -7,15 +7,17 @@
     }
 
     .heading-title {
-        color: $title-secondary-color;
+        color: $color-secondary;
+
     }
 
     .heading-desciption {
         font-size: 400;
         margin-bottom: 2.5em;
+        line-height: 1.95em;
     }
 
-    @media (max-width: 991px) {
+    @media (max-width: 61.9375em) {
         text-align: center;
 
         .section-heading {
@@ -23,6 +25,7 @@
             display: block;
 
             .heading-title {
+
                 margin: auto;
             }
 

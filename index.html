@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./dist/css/master.css">
     <script src="./dist/scripts/bundle.js"></script>
     <title>Document</title>
@@ -15,9 +12,11 @@
 
 <body>
     <div class="site">
-        <header class="header">
+        <header class="site-header">
             <div class="row">
-                <img src="./src/images/Logo.png" alt="">
+                <a href="#">
+                    <img src="./src/images/Logo.png" alt="">
+                </a>
                 <nav class="navigation">
                     <ul class="list">
                         <li class="list-item">
@@ -36,18 +35,23 @@
                 <div class="info">
                     <a class="button button-sign" href="#">Sign in</a>
                     <a class="button button-cta" href="#">start trial</a>
-                    <a href="#" id="mobile-button" class="mobile-button"><i class="fas fa-bars"></i></a>
+                    <a href="#" id="mobile-button" class="mobile-button"><svg viewBox="0 0 100 80" width="40"
+                            height="20">
+                            <rect width="70" height="15"></rect>
+                            <rect y="30" width="70" height="15"></rect>
+                            <rect y="60" width="70" height="15"></rect>
+                        </svg></a>
                 </div>
             </div>
         </header>
 
-        <div class="section-welcome">
+        <div class="section-welcome" style=" background-image: url('./src/images/bg-welcome.png');">
             <div class="row">
                 <header class="section-heading">
                     <h1 class="heading-title">Be aware, Manage well.</h1>
                     <p class="heading-description">Everyone experiences stress in different ways.
                         Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-                    <a href="#" class="button button-cta-bigger">find your way</a>
+                    <a href="#" class="button button-cta button-large">find your way</a>
                 </header>
             </div>
         </div>
@@ -68,7 +72,6 @@
 
             <div class="row">
                 <div class="content-box">
-                    <h1 class="content-box-title">01</h1>
                     <h3 class="content-box-overlay-title">Personalize</h3>
                     <p class="content-box-description">
                         Answer a quick survey about how you express yourself, what causes you stress,
@@ -77,7 +80,6 @@
                     <img src="./src/images/content-box-img-3.png" alt="">
                 </div>
                 <div class="content-box">
-                    <h1 class="content-box-title">02</h1>
                     <h3 class="content-box-overlay-title">Write & Understand</h3>
                     <p class="content-box-description">
                         Answer a quick survey about how you express yourself, what causes you stress,
@@ -86,7 +88,6 @@
                     <img src="./src/images/content-box-img-3.png" alt="">
                 </div>
                 <div class="content-box">
-                    <h1 class="content-box-title">03</h1>
                     <h3 class="content-box-overlay-title">Alivio!</h3>
                     <p class="content-box-description">
                         Answer a quick survey about how you express yourself, what causes you stress,
@@ -98,16 +99,20 @@
         </div>
     </div>
     <div class="section-video">
-        <div class="row-large">
+        <div class="row row-large">
             <header class="section-heading">
                 <h2 class="heading-title">Let's hear about Kayla's success story</h3>
                     <p class="heading-description">See how well Alivio works in a real customer’s life.</p>
-                    <a href="#" class="button button-cta-bigger">Let's get started</a>
+                    <a href="#" class="button button-cta button-large">Let's get started</a>
             </header>
-            <iframe class="thumbnail" width="1024" height="516px" src="https://www.youtube.com/embed/h7Xgu2J3Ueg"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="video-wrapper">
+                <div class="video">
+                    <iframe class="thumbnail" width="876px" height="516px"
+                        src="https://www.youtube.com/embed/h7Xgu2J3Ueg" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
     <div class="section-product">
@@ -121,9 +126,9 @@
                         <span class="card-name">Mikayla</span>
                     </div>
                     <h4 class="card-title">Your custom contents</h4>
-                    <ul class="card-list">
-                        <li class="card-list-item">understand your stress</li>
-                        <li class="card-list-item">anger management</li>
+                    <ul class="list">
+                        <li class="list-item">understand your stress</li>
+                        <li class="list-item">anger management</li>
                     </ul>
                 </div>
             </div>
@@ -132,14 +137,14 @@
                 <h2 class="heading-title">You tell us your stress, We make your diary</h2>
                 <p class="heading-description">Everyone experiences it, and in different ways.
                     Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-                <a href="#" class="button button-cta-bigger">find your way</a>
+                <a href="#" class="button button-cta button-large">find your way</a>
             </header>
         </div>
     </div>
     </div>
-    <footer class="footer">
+    <footer class="site-footer">
         <div class="row">
-            <h3 class="footer-logo">alivio</h3>
+            <h3 class="site-footer-logo">alivio</h3>
             <nav class="navigation">
                 <ul class="list">
                     <li class="list-item">
